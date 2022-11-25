@@ -1,22 +1,35 @@
-# coding just to not get lazy while i am on holidays #
-print("ARE YOU GAY?")
-chk=input()
-if chk=="yes":
-    print("ok then.......")
-else:
-    print("press this link then:https://www.youtube.com/watch?v=dQw4w9WgXcQ")
-    print("press it or else you are gay")
-    chk=input()
-print("YOU BECAUSE YOU ARE GAY:PRESS THIS:https://www.youtube.com/watch?v=cTHZQJvWU9E:")
-print("it isn't the end of the programme ok?")
-print("have you ever treid to kiss someone?:yes/no")
-chk=input()
-if chk=='yes':
-    print ('then you are definitly GAY ')
-else:
-    print('so you  are not a gay ')
-print('whats your name ?? by the way ??')
-chk=input()
-if chk =='':
-    print('thats a hookers name !!!! snakeshit !!!')
-print(' hahaha i loved that !!!')
+# new project !!!
+1
+1
+1
+1
+2
+1
+1
+3
+3
+1
+1
+4
+6
+4
+1
+1
+5
+10
+10
+5
+1
+rows = int(input("Enter number of rows: "))
+coef = 1
+
+for i in range(1, rows+1):
+    for space in range(1, rows-i+1):
+        print(" ",end="")
+    for j in range(0, i):
+        if j==0 or i==0:
+            coef = 1
+        else:
+            coef = coef * (i - j)//j
+        print(coef, end = " ")
+    print()
